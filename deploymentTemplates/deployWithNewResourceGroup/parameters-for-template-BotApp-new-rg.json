@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "groupName": {
+            "value": "grupoTest"
+        },
+        "groupLocation": {
+            "value": "eastus"
+        },
+        "appServiceName": {
+            "value": "bot_app"
+        },
+        "appServicePlanName": {
+            "value": ""
+        },
+        "appServicePlanLocation": {
+            "value": ""
+        },
+        "appServicePlanSku": {
+            "value": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            }
+        },
+        "appType": {
+            "value": "MultiTenant"
+        },
+        "appId": {
+            "value": "79667e02-5f9b-4b58-882f-2cb378d42db1"
+        },
+        "appSecret": {
+            "value": "qqZ8Q~Sa7lCJx0YWU6nJulgWvlQNmri.FvwVucpy"
+        },
+        "tenantId": {
+            "value": "6afea85d-c323-4270-b69d-a4fb3927c254"
+        }
+    }
+}
